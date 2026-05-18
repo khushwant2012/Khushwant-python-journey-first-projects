@@ -1,0 +1,6 @@
+text_emogi=str(input("Enter smile if you want to print smile emoji, enter sad if you want to print sad emoji and enter excitement if you want to print excitement emoji: "))
+print(text_emogi.replace("smile", "😊"))
+print(text_emogi.replace("sad", "😢"))
+print(text_emogi.replace("excitement", "😃"))
+a=input('enter a letter:')
+print('a' in 'banana')
